@@ -37,16 +37,16 @@ This transactional table records individual ticket purchases by linking users to
 | `payment_status` | Tracks financial resolution (`Pending`, `Confirmed`, `Cancelled`, `Refunded`). |
 | `total_cost`     | The calculated final invoice price based on the base price and seat quantity.  |
 
-### Query 1: Retrieve all upcoming football matches belonging to the 'Champions League' where the match status is 'Available'.
+- Query 1: Retrieve all upcoming football matches belonging to the 'Champions League' where the match status is 'Available'.
 
-### Query 2: Search for all users whose full names start with 'Tanvir' or contain the phrase 'Haque' (case-insensitive).
+- Query 2: Search for all users whose full names start with 'Tanvir' or contain the phrase 'Haque' (case-insensitive).
 
-### Query 3: Retrieve all booking records where the payment status is missing (`NULL`), replacing the empty result with 'Action Required'.
+- Query 3: Retrieve all booking records where the payment status is missing (`NULL`), replacing the empty result with 'Action Required'.
 
-### Query 4: Retrieve match booking details along with the User's full name and the scheduled Match fixture teams.
+- Query 4: Retrieve match booking details along with the User's full name and the scheduled Match fixture teams.
 
-### Query 5: Display a comprehensive list of all users and their booking IDs, ensuring that fans who have _never_ bought a ticket are still listed.
+- Query 5: Display a comprehensive list of all users and their booking IDs, ensuring that fans who have _never_ bought a ticket are still listed.
 
-### Query 6: Find all ticket bookings where the total cost is strictly higher than the average cost of all ticket bookings.
+- Query 6: Find all ticket bookings where the total cost is strictly higher than the average cost of all ticket bookings.
 
-### Query 7: Retrieve the top 2 most expensive matches sorted by base ticket price, skipping the absolute highest premium match.
+- Query 7: Retrieve the top 2 most expensive matches sorted by base ticket price, skipping the absolute highest premium match.
